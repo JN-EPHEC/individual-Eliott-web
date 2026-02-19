@@ -2,6 +2,7 @@ import express from 'express';
 import userRoutes from "./routes/userRoutes.js"; // Vérifie bien le .js ici !
 import sequelize from "./config/database.js";
 import User from "./models/User.js";
+import { requestLogger } from './middlewares/logger.js';
 
 const app = express();
 const port = 3000; 
@@ -9,6 +10,7 @@ const port = 3000;
 app.use(express.json());
 app.use("/api", userRoutes);
 app.use('/', express.static('public'));
+app.use(requestLogger)
 
 async function seedDatabase() {
     const count = await User.count();
