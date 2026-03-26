@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1773842533509" clover="3.2.0">
+  <project timestamp="1773842533509" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="16" coveredconditionals="16" methods="1" coveredmethods="1" elements="32" coveredelements="32" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
+    <file name="userValidator.ts" path="C:\Users\eliot\OneDrive - EPHEC asbl\2025-2026\Q2\1. Dev3\pratique\tp01\dev3-backend-tp1\server\src\utils\userValidator.ts">
+      <metrics statements="15" coveredstatements="15" conditionals="16" coveredconditionals="16" methods="1" coveredmethods="1"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="19" count="15" type="cond" truecount="4" falsecount="0"/>
+      <line num="20" count="3" type="stmt"/>
+      <line num="23" count="12" type="stmt"/>
+      <line num="26" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="30" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="3" type="stmt"/>
+      <line num="34" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="35" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="38" count="2" type="stmt"/>
+      <line num="42" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="43" count="4" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
